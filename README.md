@@ -57,3 +57,22 @@ Assim, concluimos a limpeza dos nosso dados, e também a correção dos dados qu
 ![1](https://github.com/Macaulylimacode/projetoestacio/blob/main/Captura%20de%20tela%202024-05-01%20192002.png)
 
 ![visual](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)              ![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+# Como executar o projeto
+
+```bash
+# clonar repositório
+git clone https://github.com/Macaulylimacode/projetoestacio
+
+# entrar na pasta do projeto
+cd PYTHON-INSIGHTS1
+
+# executar o projeto
+./mvnw spring-boot:run
+```
+
+# Autor
+
+Macauly lima
+
+[![linkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/macauly-lima-75984a269)
