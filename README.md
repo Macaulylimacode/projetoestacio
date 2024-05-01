@@ -16,4 +16,3 @@ apenas dropar os valores, porém o gráfico nos mostra que grande parte dos dado
 de outras colunas, o que iria gerar uma perda grande de dados no nosso dataset. Assim sendo, optamos por tratar esses dados.
 
 ![1]("C:\Users\mlcod\Downloads\output.png")
-)
