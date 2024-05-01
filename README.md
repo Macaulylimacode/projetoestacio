@@ -65,7 +65,7 @@ Assim, concluimos a limpeza dos nosso dados, e também a correção dos dados qu
 git clone https://github.com/Macaulylimacode/projetoestacio
 
 # entrar na pasta do projeto
-cd PYTHON-INSIGHTS1
+cd projetoestacio
 
 # executar o projeto
 ./mvnw spring-boot:run
