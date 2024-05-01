@@ -22,6 +22,7 @@ chegamos na conclusão de substituir os dados faltantes de forma igualitária, o
 valores conforme os já preenchidos corretamente (não nulos).
 Sabendo a proporção de dados presentes no dataset, precisamos saber qual será o valor necéssario em cada variável para continuar com
 a mesma proporção. Sabendo que teremos 65676 dados para serem substituidos.
-Criamos um nova variavel, para receber as mudanças, que receberá o nome temp. ```bash
+Criamos um nova variavel, para receber as mudanças, que receberá o nome temp. 
+```bash
 temp = df_ind.copy()
 ```
