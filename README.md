@@ -49,4 +49,11 @@ Como nossa função obteve sucesso, a mesma foi utilizada para as outras variáv
 * Viaduto                    495.0
 * Ponte                      411.0
 * Túnel                       70.0   4      71.0
+
 ![1](https://github.com/Macaulylimacode/projetoestacio/blob/main/Captura%20de%20tela%202024-05-01%20191917.png)
+
+Assim, concluimos a limpeza dos nosso dados, e também a correção dos dados que apresentaram algum tipo de problema.
+
+![1](https://github.com/Macaulylimacode/projetoestacio/blob/main/Captura%20de%20tela%202024-05-01%20192002.png)
+
+![visual](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)              ![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
