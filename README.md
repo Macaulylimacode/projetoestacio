@@ -29,3 +29,24 @@ Criamos um nova variavel, para receber as mudanças, que receberá o nome temp.
 ```bash
 temp = df_ind.copy()
 ```
+Então, para resolver o problema, foi desenvolvido uma função com a intenção de substituir os valores de forma aleatória no nosso dataset,
+para assim, não ser gerado nenhum viés durante a reposição de dados
+```bash
+def replace_randomly_nan(df_to_replace,column,new_value,size_to_replace):
+    
+    df_sample_na = df_to_replace.loc[df_to_replace[column].isnull(),column].sample(size_to_replace).copy()
+
+    for i in df_sample_na.index:
+        #print(i)
+        df_to_replace.loc[df_to_replace.index == i,column] = new_value
+```
+Como nossa função obteve sucesso, a mesma foi utilizada para as outras variáveis. Onde era preciso substituir: 
+* Curva                    11320.0
+* Interseção de vias        3571.0
+* Desvio Temporário         2089.0
+* Rotatória                 1381.0
+* Retorno Regulamentado      835.0
+* Viaduto                    495.0
+* Ponte                      411.0
+* Túnel                       70.0   4      71.0
+![1](https://github.com/Macaulylimacode/projetoestacio/blob/main/Captura%20de%20tela%202024-05-01%20191917.png)
