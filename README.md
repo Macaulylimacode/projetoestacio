@@ -16,7 +16,7 @@ apenas dropar os valores, porém o gráfico nos mostra que grande parte dos dado
 de outras colunas, o que iria gerar uma perda grande de dados no nosso dataset. Assim sendo, optamos por tratar esses dados.
 
 
-![1]([https://github.com/Macaulylimacode/projetoestacio/blob/main/output.png](https://github.com/Macaulylimacode/projetoestacio/blob/main/Captura%20de%20tela%202024-05-01%20191804.png))
+![1](https://github.com/Macaulylimacode/projetoestacio/blob/main/Captura%20de%20tela%202024-05-01%20191804.png)
 
 
 
