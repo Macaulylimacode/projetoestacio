@@ -14,5 +14,6 @@ concessionárias de rodovias e empresas do segmento logístico. A partir disso, 
 Como é possivel observar no gráfico abaixo, possuimos diversas variáveis nulas. Poderiamos, para solucionar esse problema,
 apenas dropar os valores, porém o gráfico nos mostra que grande parte dos dados faltantes não possuem relação com a falta
 de outras colunas, o que iria gerar uma perda grande de dados no nosso dataset. Assim sendo, optamos por tratar esses dados.
-![1](![output](https://github.com/Macaulylimacode/projetoestacio/assets/139823222/0481ee7b-827a-4497-b26d-b76c5953a615)
+
+![1]("C:\Users\mlcod\Downloads\output.png")
 )
