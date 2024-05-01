@@ -15,4 +15,4 @@ Como é possivel observar no gráfico abaixo, possuimos diversas variáveis nula
 apenas dropar os valores, porém o gráfico nos mostra que grande parte dos dados faltantes não possuem relação com a falta
 de outras colunas, o que iria gerar uma perda grande de dados no nosso dataset. Assim sendo, optamos por tratar esses dados.
 
-![1]("C:\Users\mlcod\Downloads\output.png")
+![1](https://github.com/Macaulylimacode/projetoestacio/blob/main/output.png)
