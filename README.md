@@ -15,4 +15,13 @@ Como é possivel observar no gráfico abaixo, possuimos diversas variáveis nula
 apenas dropar os valores, porém o gráfico nos mostra que grande parte dos dados faltantes não possuem relação com a falta
 de outras colunas, o que iria gerar uma perda grande de dados no nosso dataset. Assim sendo, optamos por tratar esses dados.
 
-![1](https://github.com/Macaulylimacode/projetoestacio/blob/main/output.png)
+![1]([https://github.com/Macaulylimacode/projetoestacio/blob/main/output.png](https://github.com/Macaulylimacode/projetoestacio/blob/main/Captura%20de%20tela%202024-05-01%20191804.png))
+
+Em relação as colunas tracado_via quanto sexo, possuimos uma quantidade de dados relevantes, e os mesmos serão tratados. Assim,
+chegamos na conclusão de substituir os dados faltantes de forma igualitária, onde os dados faltantes irão receber proporcionalmente
+valores conforme os já preenchidos corretamente (não nulos).
+Sabendo a proporção de dados presentes no dataset, precisamos saber qual será o valor necéssario em cada variável para continuar com
+a mesma proporção. Sabendo que teremos 65676 dados para serem substituidos.
+Criamos um nova variavel, para receber as mudanças, que receberá o nome temp. ```bash
+temp = df_ind.copy()
+```
